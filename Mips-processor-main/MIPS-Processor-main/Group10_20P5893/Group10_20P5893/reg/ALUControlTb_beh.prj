@@ -1,0 +1,2 @@
+vhdl work "ALUcontrol.vhd"
+vhdl work "ALUControlTb.vhd"

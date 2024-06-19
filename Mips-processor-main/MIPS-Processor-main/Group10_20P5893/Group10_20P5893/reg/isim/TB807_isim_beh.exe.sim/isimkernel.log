@@ -1,0 +1,30 @@
+Command line:
+   TB807_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49972
+
+Tue May 17 20:09:38 2022
+
+
+ Elaboration Time: 0.202801 sec
+
+ Current Memory Usage: 698.851 Meg
+
+ Total Signals          : 473
+ Total Nets             : 4174
+ Total Signal Drivers   : 94
+ Total Blocks           : 72
+ Total Primitive Blocks : 69
+ Total Processes        : 85
+ Total Traceable Variables  : 65
+ Total Scalar Nets and Variables : 5243
+In process INSTRMEMORY.vhd:ROM_PROCESS 
+ 
+
+ Total Simulation Time: 2.02801 sec
+
+ Current Memory Usage: 699.9 Meg
+
+Tue May 17 20:36:17 2022
+

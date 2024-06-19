@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/Zeinaheshamahmedreda/reg/INSTRMEMORY.xst" -ofn "C:/Users/Zeinaheshamahmedreda/reg/INSTRMEMORY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a200t-fbg484-3 INSTRMEMORY.ngc INSTRMEMORY.ngd  
+map -intstyle ise -p xc7a200t-fbg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o INSTRMEMORY_map.ncd INSTRMEMORY.ngd INSTRMEMORY.pcf 
+xst -intstyle ise -ifn "C:/Users/Zeinaheshamahmedreda/reg/INSTRMEMORY.xst" -ofn "C:/Users/Zeinaheshamahmedreda/reg/INSTRMEMORY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a200t-fbg484-3 INSTRMEMORY.ngc INSTRMEMORY.ngd  
+map -intstyle ise -p xc7a200t-fbg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o INSTRMEMORY_map.ncd INSTRMEMORY.ngd INSTRMEMORY.pcf 
+par -w -intstyle ise -ol high -mt off INSTRMEMORY_map.ncd INSTRMEMORY.ncd INSTRMEMORY.pcf 
+xst -intstyle ise -ifn "E:/farida1004/reg/INSTRMEMORY.xst" -ofn "E:/farida1004/reg/INSTRMEMORY.syr" 

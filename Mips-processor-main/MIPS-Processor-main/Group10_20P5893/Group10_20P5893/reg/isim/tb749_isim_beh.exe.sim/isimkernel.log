@@ -1,0 +1,30 @@
+Command line:
+   tb749_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  49851
+
+Tue May 17 19:52:38 2022
+
+
+ Elaboration Time: 0.280802 sec
+
+ Current Memory Usage: 699.376 Meg
+
+ Total Signals          : 473
+ Total Nets             : 4174
+ Total Signal Drivers   : 93
+ Total Blocks           : 72
+ Total Primitive Blocks : 69
+ Total Processes        : 84
+ Total Traceable Variables  : 65
+ Total Scalar Nets and Variables : 5243
+In process INSTRMEMORY.vhd:ROM_PROCESS 
+ 
+
+ Total Simulation Time: 0.483603 sec
+
+ Current Memory Usage: 700.228 Meg
+
+Tue May 17 20:07:25 2022
+

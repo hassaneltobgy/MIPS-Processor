@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/farida1004/reg/test0123_isim_beh.exe" -prj "E:/farida1004/reg/test0123_beh.prj" "work.test0123" 

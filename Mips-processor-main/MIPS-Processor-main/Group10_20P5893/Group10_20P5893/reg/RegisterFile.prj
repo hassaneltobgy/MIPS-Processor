@@ -1,0 +1,7 @@
+vhdl work "registerpak.vhd"
+vhdl work "regi.vhd"
+vhdl work "muxpaknew.vhd"
+vhdl work "mux32to1.vhd"
+vhdl work "decoderpak.vhd"
+vhdl work "Decoder.vhd"
+vhdl work "RegisterFile.vhd"

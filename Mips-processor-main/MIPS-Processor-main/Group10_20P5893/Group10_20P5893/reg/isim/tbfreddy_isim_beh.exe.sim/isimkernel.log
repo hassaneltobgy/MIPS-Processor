@@ -1,0 +1,23 @@
+Command line:
+   tbfreddy_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49553
+
+Mon May 16 16:07:47 2022
+
+
+ Elaboration Time: 0.218402 sec
+
+ Current Memory Usage: 699.048 Meg
+
+ Total Signals          : 455
+ Total Nets             : 4177
+ Total Signal Drivers   : 84
+ Total Blocks           : 72
+ Total Primitive Blocks : 69
+ Total Processes        : 84
+ Total Traceable Variables  : 65
+ Total Scalar Nets and Variables : 5246
+In process INSTRMEMORY.vhd:ROM_PROCESS 
+ 

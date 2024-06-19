@@ -1,0 +1,30 @@
+Command line:
+   TB733_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  50539
+
+Mon May 16 20:36:11 2022
+
+
+ Elaboration Time: 0.280802 sec
+
+ Current Memory Usage: 699.31 Meg
+
+ Total Signals          : 473
+ Total Nets             : 4174
+ Total Signal Drivers   : 93
+ Total Blocks           : 72
+ Total Primitive Blocks : 69
+ Total Processes        : 84
+ Total Traceable Variables  : 65
+ Total Scalar Nets and Variables : 5243
+In process INSTRMEMORY.vhd:ROM_PROCESS 
+ 
+
+ Total Simulation Time: 1.34161 sec
+
+ Current Memory Usage: 699.31 Meg
+
+Mon May 16 21:11:15 2022
+

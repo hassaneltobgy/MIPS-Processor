@@ -1,0 +1,394 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Reading design: INSTRMEMORY.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "INSTRMEMORY.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "INSTRMEMORY"
+Output Format                      : NGC
+Target Device                      : xc7a200t-3-fbg484
+
+---- Source Options
+Top Module Name                    : INSTRMEMORY
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "E:\farida1004\reg\INSTRMEMORY.vhd" into library work
+Parsing entity <INSTRMEMORY>.
+Parsing architecture <BEHAVIORAL> of entity <instrmemory>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <INSTRMEMORY> (architecture <BEHAVIORAL>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "E:\farida1004\reg\INSTRMEMORY.vhd" Line 33: loadit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\farida1004\reg\INSTRMEMORY.vhd" Line 74: addrover4 should be on the sensitivity list of the process
+WARNING:HDLCompiler:634 - "E:\farida1004\reg\INSTRMEMORY.vhd" Line 28: Net <ROM_PROCESS.MEMORY[33][31]> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <INSTRMEMORY>.
+    Related source file is "E:\farida1004\reg\INSTRMEMORY.vhd".
+        words = 64
+        wordsize = 32
+        addresssize = 32
+WARNING:Xst:647 - Input <ADDRESS<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <CLK> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<33>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<34>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<35>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<36>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<37>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<38>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<39>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<40>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<41>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<42>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<43>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<44>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<45>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<46>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<47>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<48>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<49>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<50>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<51>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<52>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<53>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<54>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<55>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<56>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<57>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<58>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<59>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<60>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<61>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<62>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:2935 - Signal 'ROM_PROCESS.MEMORY<63>', unconnected in block 'INSTRMEMORY', is tied to its initial value (00000000000000000000000000000000).
+WARNING:Xst:737 - Found 1-bit latch for signal <ROM_PROCESS.MEMORY<0><5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 Latch(s).
+	inferred  64 Multiplexer(s).
+Unit <INSTRMEMORY> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+# Multiplexers                                         : 64
+ 32-bit 2-to-1 multiplexer                             : 64
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 64
+ 32-bit 2-to-1 multiplexer                             : 64
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <INSTRMEMORY> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block INSTRMEMORY, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : INSTRMEMORY.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 64
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 1
+#      LUT3                        : 3
+#      LUT4                        : 4
+#      LUT5                        : 15
+#      LUT6                        : 32
+#      MUXF7                       : 7
+# FlipFlops/Latches                : 1
+#      LDP                         : 1
+# IO Buffers                       : 39
+#      IBUF                        : 7
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a200tfbg484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               1  out of  269200     0%  
+ Number of Slice LUTs:                   56  out of  134600     0%  
+    Number used as Logic:                56  out of  134600     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     57
+   Number with an unused Flip Flop:      56  out of     57    98%  
+   Number with an unused LUT:             1  out of     57     1%  
+   Number of fully used LUT-FF pairs:     0  out of     57     0%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          66
+ Number of bonded IOBs:                  39  out of    285    13%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)        | Load  |
+-----------------------------------+------------------------------+-------+
+DATA_30_OBUF                       | NONE(ROM_PROCESS.MEMORY<0>_5)| 1     |
+-----------------------------------+------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 0.694ns
+   Maximum output required time after clock: 3.163ns
+   Maximum combinational path delay: 2.807ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'DATA_30_OBUF'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.694ns (Levels of Logic = 1)
+  Source:            LoadIt (PAD)
+  Destination:       ROM_PROCESS.MEMORY<0>_5 (LATCH)
+  Destination Clock: DATA_30_OBUF falling
+
+  Data Path: LoadIt to ROM_PROCESS.MEMORY<0>_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            15   0.001   0.344  LoadIt_IBUF (LoadIt_IBUF)
+     LDP:PRE                   0.349          ROM_PROCESS.MEMORY<0>_5
+    ----------------------------------------
+    Total                      0.694ns (0.350ns logic, 0.344ns route)
+                                       (50.5% logic, 49.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'DATA_30_OBUF'
+  Total number of paths / destination ports: 95 / 31
+-------------------------------------------------------------------------
+Offset:              3.163ns (Levels of Logic = 5)
+  Source:            ROM_PROCESS.MEMORY<0>_5 (LATCH)
+  Destination:       DATA<5> (PAD)
+  Source Clock:      DATA_30_OBUF falling
+
+  Data Path: ROM_PROCESS.MEMORY<0>_5 to DATA<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDP:G->Q             14   0.472   0.571  ROM_PROCESS.MEMORY<0>_5 (ROM_PROCESS.MEMORY<0>_5)
+     LUT4:I1->O           18   0.097   0.590  DATA<0>61 (DATA<0>_bdd12)
+     LUT6:I3->O            1   0.097   0.683  DATA<5>2 (DATA<5>2)
+     LUT5:I0->O            1   0.097   0.000  DATA<5>4_F (N26)
+     MUXF7:I0->O           1   0.277   0.279  DATA<5>4 (DATA_5_OBUF)
+     OBUF:I->O                 0.000          DATA_5_OBUF (DATA<5>)
+    ----------------------------------------
+    Total                      3.163ns (1.040ns logic, 2.123ns route)
+                                       (32.9% logic, 67.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 468 / 31
+-------------------------------------------------------------------------
+Delay:               2.807ns (Levels of Logic = 6)
+  Source:            ADDRESS<7> (PAD)
+  Destination:       DATA<5> (PAD)
+
+  Data Path: ADDRESS<7> to DATA<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            13   0.001   0.612  ADDRESS_7_IBUF (ADDRESS_7_IBUF)
+     LUT4:I0->O           29   0.097   0.663  DATA<0>31 (DATA<0>_bdd7)
+     LUT6:I2->O            1   0.097   0.683  DATA<5>2 (DATA<5>2)
+     LUT5:I0->O            1   0.097   0.000  DATA<5>4_F (N26)
+     MUXF7:I0->O           1   0.277   0.279  DATA<5>4 (DATA_5_OBUF)
+     OBUF:I->O                 0.000          DATA_5_OBUF (DATA<5>)
+    ----------------------------------------
+    Total                      2.807ns (0.569ns logic, 2.238ns route)
+                                       (20.3% logic, 79.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.00 secs
+ 
+--> 
+
+Total memory usage is 4617624 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   37 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

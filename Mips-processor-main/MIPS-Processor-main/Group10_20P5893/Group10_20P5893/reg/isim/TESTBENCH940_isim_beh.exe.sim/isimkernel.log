@@ -1,0 +1,32 @@
+Command line:
+   TESTBENCH940_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60189
+
+Wed May 18 12:05:07 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5163.74 Meg
+
+ Total Signals          : 474
+ Total Nets             : 4173
+ Total Signal Drivers   : 94
+ Total Blocks           : 72
+ Total Primitive Blocks : 69
+ Total Processes        : 85
+ Total Traceable Variables  : 65
+ Total Scalar Nets and Variables : 5242
+In process INSTRMEMORY.vhd:ROM_PROCESS 
+ 
+In process INSTRMEMORY.vhd:ROM_PROCESS 
+ 
+
+ Total Simulation Time: 0.46875 sec
+
+ Current Memory Usage: 4691.88 Meg
+
+Wed May 18 12:12:01 2022
+

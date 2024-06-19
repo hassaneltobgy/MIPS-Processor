@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/Zeinaheshamahmedreda/reg/ADDER.xst" -ofn "C:/Users/Zeinaheshamahmedreda/reg/ADDER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a200t-fbg484-3 ADDER.ngc ADDER.ngd  
+xst -intstyle ise -ifn "E:/farida1004/reg/ADDER.xst" -ofn "E:/farida1004/reg/ADDER.syr" 

@@ -1,0 +1,28 @@
+Command line:
+   tbfarida_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58339
+
+Tue May 17 22:48:18 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5164.27 Meg
+
+ Total Signals          : 474
+ Total Nets             : 4173
+ Total Signal Drivers   : 94
+ Total Blocks           : 72
+ Total Primitive Blocks : 69
+ Total Processes        : 85
+ Total Traceable Variables  : 65
+ Total Scalar Nets and Variables : 5242
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5164.27 Meg
+
+Tue May 17 22:48:36 2022
+

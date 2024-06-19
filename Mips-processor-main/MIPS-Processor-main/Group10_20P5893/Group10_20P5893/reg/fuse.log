@@ -1,0 +1,78 @@
+Running: D:\XILINXREAL\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/farida1004/reg/test0123_isim_beh.exe -prj E:/farida1004/reg/test0123_beh.prj work.test0123 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/farida1004/reg/registerpak.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/regi.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/muxpaknew.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/mux32to1.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/decoderpak.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/Decoder.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/SignExtenderpak.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/SIgnExtender.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/RegisterFilepak.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/RegisterFile.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/programcounterpak.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/programcounter.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/muxnbits2to1pak.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/muxnbits2to1.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/instructionpak.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/INSTRMEMORY.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/DTAMEMORYpak.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/DATAMEMORY.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/controlunitpak.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/controlunit.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/ALUpak.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/ALUcontrolpak.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/ALUcontrol.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/ALU.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/ADDERpak.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/ADDER.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/MainModule.vhd" into library work
+Parsing VHDL file "E:/farida1004/reg/test0123.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package alucontrolpak
+Compiling package dtamemorypak
+Compiling package signextenderpak
+Compiling package controlunitpak
+Compiling package muxnbits2to1pak
+Compiling package programcounterpak
+Compiling package muxpaknew
+Compiling package alupak
+Compiling package registerfilepak
+Compiling package adderpak
+Compiling package instructionpak
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package registerpak
+Compiling package decoderpak
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity programcounter [programcounter_default]
+Compiling architecture behavioral of entity INSTRMEMORY [\INSTRMEMORY(64,32,32)\]
+Compiling architecture behavior of entity controlunit [controlunit_default]
+Compiling architecture behavioral of entity muxnbits2to1 [\muxnbits2to1(5)\]
+Compiling architecture behavioral of entity Decoder [decoder_default]
+Compiling architecture behavioral of entity mux32to1 [mux32to1_default]
+Compiling architecture behavioral of entity regi [\regi(32)\]
+Compiling architecture behavioral of entity RegisterFile [\RegisterFile(32)\]
+Compiling architecture behavioral of entity SIgnExtender [signextender_default]
+Compiling architecture behavioral of entity muxnbits2to1 [\muxnbits2to1(32)\]
+Compiling architecture behavioral of entity ALUcontrol [alucontrol_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity DATAMEMORY [\DATAMEMORY(64,32,32)\]
+Compiling architecture behavioral of entity ADDER [\ADDER(32)\]
+Compiling architecture behavioral of entity MainModule [mainmodule_default]
+Compiling architecture behavior of entity test0123
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 52 VHDL Units
+Built simulation executable E:/farida1004/reg/test0123_isim_beh.exe
+Fuse Memory Usage: 39528 KB
+Fuse CPU Usage: 640 ms
